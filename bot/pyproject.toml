@@ -45,6 +45,7 @@ data = [
     "hexdoc-hexgender~=1.0.4.0",
     "hexdoc-hexmapping~=0.0.3.0",
     "hexdoc-hexodus~=1.0.0.0",
+    "hexdoc-mediatransport~=0.1.0.1.20.1.1.0",
     # workaround for https://github.com/miyucomics/hexpose/commit/26709051b306e70982cb904ac2776eb7f9da9f4d
     # we can switch back to PyPI for the next release
     "hexdoc-hexpose==1.0.0.1.0.0+hexbug",
@@ -83,6 +84,7 @@ hexdoc-moreiotas = { url = "https://github.com/FallingColors/MoreIotas/raw/faef6
 hexdoc-oneironaut = { url = "https://github.com/beholderface/oneironaut/raw/99b7c992e2e2230b39ec9adceed4b1b2fed15831/docs/v/latest/1.20.1/dist/hexdoc_oneironaut-0.5.0.1.0-py3-none-any.whl" }
 hexdoc-overevaluate = { url = "https://github.com/miyucomics/overevaluate/raw/6c92a93c51fd966cf3709468f0a126c746ae85ba/docs/v/latest/main/dist/hexdoc_overevaluate-1.0.0.1.0.0-py3-none-any.whl" }
 hexdoc-scryglass = { url = "https://github.com/miyucomics/scryglass/raw/2b414d0ba9e9c0770c8b13bb01a67398630a4690/docs/v/latest/main/dist/hexdoc_scryglass-1.0.0.1.0.0-py3-none-any.whl" }
+hexdoc-mediatransport = { path = "../../mediatransport/dist/hexdoc_mediatransport-0.1.0.1.20.1.1.0-py3-none-any.whl" }
 
 [tool.hatch.version]
 source = "regex"

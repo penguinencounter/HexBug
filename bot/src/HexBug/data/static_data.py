@@ -94,7 +94,7 @@ MODS: list[StaticModInfo] = [
         description="Adds a method to delay hexes into the future, with a touch of playfulness and whimsy!",
         icon_url=URL("src/main/resources/assets/hexcassettes/icon.png"),
         curseforge_slug=None,
-        modrinth_slug="hexcassettes",
+        modrinth_slug="166",
         modloaders=[Modloader.FABRIC, Modloader.QUILT],
     ),
     StaticModInfo(
@@ -266,6 +266,15 @@ MODS: list[StaticModInfo] = [
         curseforge_slug=None,
         modrinth_slug="lesser-teleport",
         modloaders=[Modloader.FABRIC],
+    ),
+    StaticModInfo(
+        id="mediatransport",
+        name="mediatransport",
+        description="Adds Figura Server Backend compatibility.",
+        icon_url=URL("Common/src/main/resources/logo.png"),
+        curseforge_slug=None,
+        modrinth_slug="mediatransport",
+        modloaders=[Modloader.FABRIC, Modloader.FORGE],
     ),
     StaticModInfo(
         id="moreiotas",
